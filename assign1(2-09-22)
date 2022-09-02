@@ -1,0 +1,34 @@
+include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int marks_summation(int* marks, int number_of_students, char gender)
+ {
+  int j,n=0;
+  if(gender=='g')
+  {
+      for(j=0;j<number_of_students;j++)
+      {
+       if(j%2!=0)
+       {
+        n=n+marks[j];
+       }
+      
+      } 
+  }
+  else
+   {
+       if(gender=='b')
+     {
+     for(j=0;j<number_of_students;j++)
+     {
+       if(j%2==0)
+       {
+         n=n+marks[j];
+       }
+       
+     } 
+     } 
+  }
+  return n;
+ }
