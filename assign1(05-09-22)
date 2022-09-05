@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+  int 	n,k,i;
+  printf("enter n val",n);
+  scanf("%d",&n);
+  printf("enter the end",k);
+  scanf("%d",&k);
+  i=n;
+  while(i<=k)
+  {
+  printf("%d ",i);
+  i++;
+  }
+return 0;	
+}
