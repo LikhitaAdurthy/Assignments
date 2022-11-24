@@ -1,0 +1,8 @@
+a=int(input("Enter student no:"))
+b=input("Enter student name:")
+c=input("Enter group:")
+s1=int(input("marks")) 
+if s1>=35:
+print("Pass") 
+else:
+print("Fail")
