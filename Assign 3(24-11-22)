@@ -3,6 +3,6 @@ b=input("Enter student name:")
 c=input("Enter group:")
 s1=int(input("marks")) 
 if s1>=35:
-print("Pass") 
+  print("Pass") 
 else:
-print("Fail")
+  print("Fail")
