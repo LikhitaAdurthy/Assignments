@@ -22,10 +22,10 @@ elif bill>=500:
     tax=bill*15/100
 else:
     tax=100
-print('bill without tax:',bill)
-print('tax:',tax)
 print('Customer phonenumber:',cphno)
 print('Customer Name:',cname)
 print('Customer address:',caddr)
+print('bill without tax:',bill)
+print('tax:',tax)
 total=bill+tax
 print('total amount',total)
