@@ -1,0 +1,17 @@
+serviceno=int(input("Enter your service number:"))
+unit=int(input("Enter your unit: "))
+if unit>=0 and unit<=50:
+    charges=1.45
+elif unit>=51 and unit<=75:
+    charges=2.60
+elif unit>=76 and unit<=100:
+    charges=2.65
+elif unit>=101 and unit<=200:
+    charges=3.60
+elif unit>200: 
+    charges=4.00
+bill=unit*charges
+print("The extra charge is ",charges)
+print("The total units used",unit)
+print("**********Hello your electricity bill is*******")
+print("your electricity bill is:",bill)
