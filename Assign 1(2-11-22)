@@ -1,0 +1,9 @@
+def biggest (a,b):
+   print ("the big number is",(a and b)) 
+a=int(input ())
+b=int(input ())
+if a>b:
+      print("a is big")
+else :
+      print("b is big")
+biggest (a, b)
