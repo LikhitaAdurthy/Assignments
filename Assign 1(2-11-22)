@@ -1,9 +1,11 @@
-def biggest (a,b):
-   print ("the big number is",(a and b)) 
-a=int(input ())
-b=int(input ())
-if a>b:
-      print("a is big")
-else :
-      print("b is big")
-biggest (a, b)
+
+def big2(a,b):
+    if (a > b):
+        print(a," is greater than ",b)
+    else:
+        print(b," is greater than ",a)
+
+print(" to know which number is greater")
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+big2(num1, num2)
