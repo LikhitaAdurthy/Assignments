@@ -1,0 +1,6 @@
+str=input()
+length=len(str)
+print("No of charcters:",length)
+print("Lower to uuper",str.upper())
+print("Upper to lower",str.lower())
+print("Upper to lower & Lower to upper",str.swapcase())
