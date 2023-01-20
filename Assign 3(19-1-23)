@@ -1,0 +1,10 @@
+
+s=input('enter string')
+l=int(input('enter frequency'))
+res=''
+n=len(s)
+for i in range(0,n):
+        for j in range(0,l):
+            if s[i].isalpha():
+                res=res+s[i]
+print(res)
